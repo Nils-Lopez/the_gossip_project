@@ -28,6 +28,14 @@ $ bundle install
 ```sh
 $ shotgun -p 4567
 ```
+
+3. Rends toi ensuite à l'adresse suivante avec ton navigateur préféré : 
+
+```sh
+http://localhost:4567
+```
+Et à toi la gloire !! 
+
 ### Plugins
 
 Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
