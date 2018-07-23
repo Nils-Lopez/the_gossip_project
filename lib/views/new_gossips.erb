@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Créer un potin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <style>
+    header {
+      padding: 40px;
+
+    }
+    body {background-color: #e5e5e5 ;}
+    h1   {color: blue;}
+    header a {color: white;}
+    div.gossip {
+      padding: 20px;
+      background-color: #e8e8e8;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    p.gossip {
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-9">
+            <h1>The Gossip Project</h1>
+        </div>
+        <div class="col-md-3 header">
+          <a href="/" role="button" class="btn btn-primary CTA">Retour à l'acceuil</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <center>
+    <h1>Créé un potin !</h1>
+    <p>Balance ton potin, BG</p>
+    <form action='/gossips/new' method='POST'>
+      <p>
+        Ton potin :
+      </p>
+      Balance ton blase : <input type='text' name='gossip_author'/><br/>
+      Balance ton potin : <input type='text' name='gossip_content'/><br/>
+      <input type='submit'/>
+    </form>
+  </center>
+  </section>
+  </body>
+</html>
