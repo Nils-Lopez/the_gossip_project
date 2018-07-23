@@ -47,10 +47,13 @@ The_gossip_project is currently extended with the following plugins. Instruction
 | Shotgun | [https://github.com/rtomayko/shotgun/blob/master/README.md][PlGd] |
 | CSV | [https://github.com/ruby/csv/blob/master/README.md][PlOd] |
 
-License & property
+License & Property
 ----
 Peace, love & having fun !
 Titouax 
+
+
+
 **Free Software, Hell Yeah!**
 
 
