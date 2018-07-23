@@ -38,7 +38,7 @@ Et à toi la gloire !!
 
 ### Plugins
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+The_gossip_project is currently extended with the following plugins. Instructions on how to use them in your own application are linked below. J'ai préféré faire cette phrase en Anglais pour le style. 
 
 | Gemfile | README des Gems |
 | ------ | ------ |
@@ -47,12 +47,10 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 | Shotgun | [https://github.com/rtomayko/shotgun/blob/master/README.md][PlGd] |
 | CSV | [https://github.com/ruby/csv/blob/master/README.md][PlOd] |
 
-License
+License & property
 ----
-
-
-
-
+Peace, love & having fun !
+Titouax 
 **Free Software, Hell Yeah!**
 
 
