@@ -9,6 +9,7 @@
     }
     body {background-color: #e5e5e5 ;}
     h1   {color: #157ffb;}
+    h4 {color: #157ffb;}
     header a {color: white;}
     div.gossip {
       padding: 20px;
@@ -21,7 +22,7 @@
       border-radius: 10px;
     }
     input {
-      border-radius: 10px;
+      border-radius: 5px;
     }
     </style>
   </head>
@@ -42,12 +43,14 @@
     <center>
     <h1>Créé un potin !</h1>
     <p>Balance ton potin, BG</p>
+    <br>
     <form action='/gossips/new' method='POST'>
-      <p>
+      <h4>
         Ton potin :
-      </p>
-      Balance ton blase : <input type='text' name='gossip_author'/><br/>
-      Balance ton potin : <input type='text' name='gossip_content'/><br/>
+      </h4>
+      Balance ton blase :<br/> <input type='text' name='gossip_author'/><br/>
+      <br/>
+      Balance ton potin :<br/> <textarea name='gossip_content' cols="40" rows="5"/></textarea>
       <br/>
       <input class="btn btn-primary" type='submit'/>
     </form>
